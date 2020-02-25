@@ -1,0 +1,19 @@
+{
+  "name": "anime-downloader",
+  "version": "1.0.0",
+  "description": "webscrapping code used to download animes from anbient site",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev"
+  },
+  "keywords": [
+    "anime"
+  ],
+  "author": "AlexandreSenpai",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "puppeteer": "^2.1.1",
+    "puppeteer-core": "^2.1.1"
+  }
+}
