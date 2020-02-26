@@ -1,0 +1,38 @@
+.box{
+    width: 32%;
+    margin: 5px 2px;
+    background: #333;
+}
+
+.thumb{
+    overflow: hidden;
+}
+
+.title{
+    font-size: 1.5em;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.d_btn{
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-right: 4px;
+}
+
+.content{
+    padding: 10px;
+}
+
+a{
+    border: none;
+    border-radius: 5px;
+    margin-top: 2px;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    text-align: center;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 5px;
+}

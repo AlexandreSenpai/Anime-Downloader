@@ -1,0 +1,35 @@
+nav{
+    position: fixed;
+    width: 100%;
+    background: #333;
+    height: 45px;
+    margin: 0 0 5px 0;
+    -webkit-app-region: drag;
+    z-index: 999;
+}
+
+button, a{
+    border: none;
+    background: #db244f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 30px;
+    color: #f1f1f1;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    transition: .5s ease;
+    -webkit-app-region: no-drag;
+}
+
+input[type="text"]{
+    border: none;
+    height: 29px;
+    padding: 0 5px 0 5px;
+    margin-bottom: 5px;
+    -webkit-app-region: no-drag;
+}
+
+button:hover, a:hover{
+    background: #c7133d;
+}
